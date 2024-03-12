@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocoso</title>
+    <link rel="preload" href="assets/css/estilos.css" as="style">
+    <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+    <link href="assets/css/estilos.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+               <li><a href="#">Inicio</a></li>
+               <li><a href="#">Libros</a></li>
+               <li><a href="#">Repositorio</a></li>
+               <li><a href="#">Acerca de</a></li>
+            </ul>    
+        </nav>
+        <form action="/search" method="get" href="pages/acerca_de.html">
+            <input type="search" name="q" placeholder="Hallar Obras..."><button
+                type="submit">Buscar</button><button>Nuevo
+                usuario</button>
+        </form>
+
+        <h1>BIBLIOTECA</h1>
+        <h3>Leer es god</h3>
+
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M-4.23,90.30 C121.61,-89.30 322.51,220.56 501.97,29.12 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main> 
+        <secion class="catalogo">
+            <div class="contenedor">
+                <h2 class="titulo">Catálogo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur risus mi, vulputate quis magna
+                    sed, faucibus tempor tellus. Curabitur mollis arcu sit amet risus mattis rhoncus. Pellentesque
+                    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean commodo in
+                    ante a tempor. Aliquam feugiat mattis nisi, vitae volutpat purus accumsan at. Fusce accumsan viverra
+                    nisl, ut ultricies arcu volutpat vel. Nam et tincidunt magna. Etiam in elit pharetra, fringilla
+                    nulla blandit, tristique mauris. Aenean eu hendrerit massa, non finibus urna.</p>
+                <div class="galeria-ctlg">
+                    <div class="imagen-ctlg">
+                        <img src="assets/img/1image.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="assets/img/handIcon.png" alt="">
+                            <h4>ROMANCE</h4>
+                        </div>
+                    </div>
+                    <div class="imagen-ctlg">
+                        <img src="assets/img/2imagen.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="assets/img/handIcon.png" alt="">
+                            <h4>SUSPENSO</h4>
+                        </div>
+                    </div><div class="imagen-ctlg">
+                        <img src="assets/img/3image.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="assets/img/handIcon.png" alt="">
+                            <h4>CIENCIA FICCION</h4>
+                        </div>
+                    </div><div class="imagen-ctlg">
+                        <img src="assets/img/4image.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="assets/img/handIcon.png" alt="">
+                            <h4>LITERATURA</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </secion>
+    </main>
+</body>
+</html>
